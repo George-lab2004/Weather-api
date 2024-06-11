@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- START NAV -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container position-relative">
+          <p><img src="Images/umbrella.png"> Weather </p>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse custom-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-5 start-50 position-absolute mb-2 mb-lg-0">
+              <li class="nav-item ">
+                <a class="nav-link active pe-4" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link pe-4" href="#section2">Hours</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link pe-4" href="#section4">Days</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link pe-4" href="#foot">Subscribe</a>
+              </li>
+             
+              </li>
+             
+            </ul>
+           
+          </div>
+        </div>
+      </nav>
+<!-- End Nav -->
+<!-- Start section 1 -->
+ <section id="section1">
+    <div class="area1 d-flex position-relative">
+<input type="text" id="key" placeholder="Search for cities" class="w-75 position-absolute  mt-3 rounded-start rounded-end form-control text-secondary text-white">
+ <button class="btn  bg-black position-absolute mt-3" style=" color: #009AD8 !important;"> Find your Location </button>
+</div>
+<div class="container" id="data">
+<!-- <div class="row mt-5">
+    <div class="col-md-6 mt-3">
+        <h2 class="mt-5 fs-1 text-white fw-bolder"></h2>
+        <p class=""></p>
+        <span></span>
+    </div>
+    <div class="col-md-6 mt-3">
+        <img src="" class="ms-5">
+
+    </div>
+</div> -->
+</div>
+ </section>
+ <!-- Start Section 2 -->
+ <div id="section2">
+      <h3 class="text-white">Hours Forecast</h3>
+  </div>
+</div>
+<div id="section3">
+    <!-- <div class="container text-center">
+        <h6 class="text-center text-danger">Air conditions</h6>
+        <div class="row">
+        <div class="col-md-6">
+            <h3 class="text-secondary"> <i class="fa fa-temperature-2"></i> Real Feel</h3>
+            <span class="fs-3 ps-4">20^c</span>
+            <h3 class="text-secondary mt-3"> <i class="fa fa-tachometer-alt-fast"></i> pressure</h3>
+            <span class="fs-3 ps-4">20%</span>
+
+        </div>
+        <div class="col-md-6 mt-4">
+            <h3 class="text-secondary"> <i class="fa fa-water"></i> humidity</h3>
+            <span class="fs-3 ps-4">20^c</span>
+            <h3 class="text-secondary mt-3"> <i class="fa fa-tint"></i> wind</h3>
+            <span class="fs-3 ps-4">20%</span>
+        </div>
+        </div>
+    </div> -->
+</div>
+
+<!-- start sec4 -->
+<div id="section4">
+    <!-- <div class="text-center">
+        <h3> Dont miss the sunset !</h3>
+        <h4>Sunset will be at <span class="text-danger">.</span> </h4>
+        <h4>Sunrise will be at<span class="text-danger">.</span> </h4>
+    </div> -->
+
+
+</div>
+
+<div id="section5">
+
+</div>
+<footer id="foot" style="background-color:var(--main-color); color: var(--secondary-color); padding: 20px;">
+    <div class="container">
+        <div class="row align-items-center justify-content-between">
+            <div class="col-md-6">
+                <form action="#">
+                    <div class="input-group">
+                        <input type="email" class="form-control" placeholder="Enter your email to subscribe" style="font-size: 14px;">
+                        <button class="btn btn-primary" style="font-size: 14px;">Subscribe</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-6">
+                <div class="d-flex justify-content-end">
+                    <a href="#" class="me-3"><i class="fab fa-google"></i></a>
+                    <a href="#" class="me-3"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="me-3"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="me-3"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-md-12">
+                <p class="text-center" style="font-size: 12px;">
+                    Copyright 2014 Company name. Designed by Themezy. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+    <script src="script/main.js"></script>
+   <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
