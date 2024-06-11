@@ -219,7 +219,7 @@ function displayWeather(xmlDoc) {
           <div class="col-md-4 col-lg-2 text-center">
               <div class="content divider text-center">
                   <span class="text-secondary fs-4 fw-bolder">${time}</span>
-                  <img src="${getWeatherImage(forecast.querySelector("clouds").getAttribute("value"))}" alt="">
+                  <img src="${getWeatherImage(forecast.querySelector("clouds").getAttribute("value"))}" alt=""><br>
                   <span class="fw-bolder fs-3 text-secondary">${temperatureCelsius}°C</span>
               </div>
           </div>
@@ -245,7 +245,7 @@ function displayWeather(xmlDoc) {
     `;
   
   }
-  document.getElementById('section5').insertAdjacentHTML('beforeend', datatwo);
+  document.getElementById('section5').innerHTML = datatwo;
 
   
 
